@@ -1,0 +1,17 @@
+1. Preparar el entorno en VSCode, instalacion de python, del repositorio en github, creación del entorno virtual, etc
+
+2. Descargar los datos. Los descargamos desde https://accounts.synapse.org/?appId=synapse.org donde vamos a este formulario https://docs.google.com/forms/d/e/1FAIpQLScRv1PUZm1TcX7iW7AgXyW9wp8MBV-rxTsrs3fVrk4s7ClLTw/viewform y pedimos acceso a los datos. Tenemos una gran variedad, pero utilizamos los primeros. 
+
+3. Preprocesado
+
+
+Crear entorno:
+    python3 -m venv .venv
+    source .venv/bin/activate
+
+
+Esto genera un requirements.txt con las versiones exactas de tus paquetes.
+pip freeze > requirements.txt
+
+
+cd /mnt/c/Users/Usuario/Repositorios
