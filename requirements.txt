@@ -9,3 +9,6 @@ seaborn
 ipywidgets
 opencv-python
 torch
+plotly
+nbformat
+scikit-image
